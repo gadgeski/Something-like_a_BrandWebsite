@@ -47,6 +47,17 @@ Header
     display: block;
 }
 
+/*------------------------------------------------
+
+MainVisual
+
+------------------------------------------------*/
+.mainvisual img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
 /*-------------------------------------------------
 
 Concept
@@ -84,13 +95,63 @@ Concept
 
 /*------------------------------------------------
 
-MainVisual
+Products
 
 ------------------------------------------------*/
-.mainvisual img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
+
+.products {
+    background-color: #f4eaea;
+    padding: 130px;
+}
+.products .section-title {
+    font-family: 'YuMincho', 'Yu Mincho', serif;
+    font-size: 80px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+.products .img-group {
+    height: 890px;
+    position: relative;
+}
+.products .img-group .img1 {
+    max-width: 350px;
+    position: absolute;
+    top: 0;
+    left: 42%;
+    z-index: 30;
+}
+.products .img2 {
+    max-width: 400px;
+    position: absolute;
+    top: 250px;
+    left: 8%;
+    z-index: 20;
+}
+.products .img-group .img3 {
+    max-width: 480px;
+    position: absolute;
+    top: 570px;
+    left: 40%;
+    z-index: 10;
+} 
+.products .img-group .circle {
+    width: 90px;
+    height: 90px;
+    background-color: #333;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: cente;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: absolute;
+    top: -45px;
+    right: -13%;
+    z-index: 40;
+
 }
 
 /*------------------------------------------------
