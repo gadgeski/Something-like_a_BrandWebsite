@@ -118,4 +118,26 @@ MainVisual
 .mainvisual img {
     height: 480px;
     }
+/*-------------------------------------------------
+
+Concept
+
+-------------------------------------------------*/
+.concept {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: static;
+}
+.concept img {
+    margin-bottom: 30px;
+}
+.concept .text {
+    background-color: transparent;
+    padding: 0;
+    position: static;
+}
+.concept .text .section-title {
+    font-size: 240px;
+}
+
 }
