@@ -240,6 +240,28 @@ Online Store
 
 /*------------------------------------------------
 
+Footer
+
+------------------------------------------------*/
+#footer {
+    background-color: #666;
+    padding: 30px 0;
+}
+#footer .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer .logo {
+    max-width: 130px;
+}
+#footer .copyright {
+    color: #fff;
+    font-size: 12px;
+}
+
+/*------------------------------------------------
+
 スマートフォン用
 
 ------------------------------------------------*/
@@ -322,4 +344,27 @@ NewProducts
     top: -13px;
     right: -13px;
     }
+}
+/*------------------------------------------------
+
+Online Store
+
+------------------------------------------------*/
+.online-store {
+    height: auto;
+    padding: 20px;
+}
+.online-store .box .title {
+    font-size: 24px;
+}
+/*------------------------------------------------
+
+Footer
+
+------------------------------------------------*/
+#footer {
+    padding: 15px 0;
+}
+#footer .logo {
+max-width: 30px;
 }
