@@ -72,7 +72,7 @@ Concept
     max-width: 720px;
 
 }
-.concept .text{
+.concept .text {
     max-width: 600px;
     background-color: rgba(253, 248, 240, 0.8);
     padding: 40px;
@@ -178,7 +178,7 @@ SelectItems
     line-height: 1.5;
     margin-bottom: 20px;
 }
-.select-items .text .description{
+.select-items .text .description {
     font-size: 15px;
     line-height: 1.0;
     text-align: justify;
@@ -215,7 +215,7 @@ Online Store
     padding: 50px 0;
     text-align: center;
 }
-.onlibe-store .box .title{
+.onlibe-store .box .title {
     color: #fff;
     font-size: 28px;
     font-weight: bold;
@@ -246,20 +246,19 @@ Footer
 #footer {
     background-color: #666;
     padding: 30px 0;
-}
-#footer .inner {
+  }
+  #footer .inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-#footer .logo {
+  }
+  #footer .logo {
     max-width: 130px;
-}
-#footer .copyright {
+  }
+  #footer .copyright {
     color: #fff;
     font-size: 12px;
-}
-
+  }
 /*------------------------------------------------
 
 スマートフォン用
@@ -366,5 +365,5 @@ Footer
     padding: 15px 0;
 }
 #footer .logo {
-    max-width: 30px;
+    max-width: 80px;
 }
