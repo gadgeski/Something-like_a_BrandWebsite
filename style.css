@@ -10,14 +10,17 @@ body {
   overflow-x: hidden;
   display: flex;
   /* flexboxレイアウト */
-  justify-content: center;
-  /* 水平方向中央揃え */
-  align-items: center;
-  /* 垂直方向中央揃え */
+  flex-direction: column;
+  /* 要素を縦に並べる */
   min-height: 100vh;
   /* 画面全体の高さ確保 */
   margin: 0;
   /* デフォルトmarginリセット */
+}
+
+main {
+  flex-grow: 1;
+  /* メインコンテンツの高さを画面全体に広げる */
 }
 img {
   max-width: 100%;
